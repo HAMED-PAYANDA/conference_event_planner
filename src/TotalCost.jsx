@@ -3,8 +3,9 @@ import "./TotalCost.css";
 
 const TotalCost = ({ totalCosts, ItemsDisplay }) => {
   
-
-  return (
+    const total_amount = totalCosts.venue + totalCosts.av + totalCosts.meals;
+  
+    return (
     <div className="pricing-app">
       <div className="display_box">
         <div className="header">
@@ -12,12 +13,11 @@ const TotalCost = ({ totalCosts, ItemsDisplay }) => {
         </div>
         <div>
           <h2 id="pre_fee_cost_display" className="price">
-           
+                ${total_amount}
           </h2>
-         
-            <div>
-             
-            </div>
+          <div className="render_items">
+                <ItemsDisplay />
+          </div>
         </div>
       </div>
     </div>
