@@ -57,9 +57,6 @@ conference_event_planner/
 
 Contributions are welcome! Please fork the repository and submit pull requests for new features, bug fixes, or improvements.
 
-## License
-
-_This project is licensed under the MIT License._
 
 ## Contact
 
