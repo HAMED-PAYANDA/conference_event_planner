@@ -87,4 +87,4 @@ The application will now be accessible in your web browser at http://localhost:3
 👤 Author
 Hamed Payanda
 •	GitHub: @HAMED-PAYANDA
-Completed as part of the IBM Full-Stack Software Developer Professional Certificate.
+Completed as part of the IBM Full-Stack Software Developer Professional.
