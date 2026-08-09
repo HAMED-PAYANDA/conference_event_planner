@@ -7,7 +7,12 @@ Efficiently plan, organize, and manage conferences and events with ease. A compr
 [![React](https://img.shields.io/badge/React-Frontend_UI-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Redux](https://img.shields.io/badge/Redux-State_Management-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![Node.js](https://img.shields.io/badge/Node.js-Environment-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](#)
+<br>
+[![IBM Certification](https://img.shields.io/badge/IBM-Full%20Stack%20Software%20Developer%20Professional-blue?style=for-the-badge&logo=ibm)](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)](#)
 
 </div>
 
@@ -19,6 +24,35 @@ Efficiently plan, organize, and manage conferences and events with ease. A compr
 
 *Make your event planning effortless and successful!*
 
+---
+
+## 🏗️ State Management Architecture
+
+```mermaid
+graph LR
+    UI(["🖥️ UI Components<br>(ConferenceEvent.jsx)"])
+    Store[("📦 Redux Store<br>(store.js)")]
+    Cost(["💲 Total Cost Calculation<br>(TotalCost.jsx)"])
+
+    subgraph Slices ["🧩 Redux Toolkit Slices"]
+        direction TB
+        Venue["🏠 venueSlice"]
+        AV["🎛️ avSlice"]
+        Meals["🍽️ mealsSlice"]
+    end
+
+    UI -->|"Dispatches Actions"| Slices
+    Slices -->|"Updates Global State"| Store
+    Store -->|"Selects State Data"| Cost
+    Store -->|"Triggers Re-renders"| UI
+
+    style UI fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000
+    style Cost fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style Store fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
+    style Venue fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#000
+    style AV fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#000
+    style Meals fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#000
+```
 ---
 
 ## ✨ Key Features
@@ -84,7 +118,9 @@ npm start
 
 The application will now be accessible in your web browser at http://localhost:3000/ or http://localhost:5173/.
 
-👤 Author
-Hamed Payanda
-•	GitHub: @HAMED-PAYANDA
-Completed as part of the IBM Full-Stack Software Developer Professional.
+## 👤 Author
+
+**Hamed Payanda**
+* **GitHub:** [@HAMED-PAYANDA](https://github.com/HAMED-PAYANDA)
+* Completed as part of the **IBM Full-Stack Software Developer Professional**.
+
