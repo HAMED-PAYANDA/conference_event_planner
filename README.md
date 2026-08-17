@@ -96,20 +96,23 @@ Based on the repository architecture, the application modularizes its features i
 
 ```text
 conference_event_planner/
-├── assets/                    # Static images and visual assets
-├── store.js                   # Redux Toolkit centralized store configuration
-├── avSlice.js                 # Redux slice for Audio/Visual equipment state
-├── mealsSlice.js              # Redux slice for catering and meal selections
-├── venueSlice.js              # Redux slice for venue and room scheduling
-├── App.jsx / App.css          # Root application component and styles
-├── main.jsx / index.css       # Application entry point and global styles
-├── AboutUs.jsx                # Informational landing component
-├── ConferenceEvent.jsx        # Core event management component
-├── TotalCost.jsx              # Cost calculation and summary component
-└── README.md                  # Project documentation
+├── public/                    # Static public assets
+├── src/                       # Application source code (React components, Redux store, slices)
+├── .eslintrc.cjs              # ESLint configuration and rules for code quality
+├── .gitignore                 # Specifies intentionally untracked files for Git
+├── index.html                 # Main HTML template and application entry point
+├── LICENSE                    # Project license file
+├── package-lock.json          # Deterministic dependency tree
+├── package.json               # Project metadata, dependencies, and script commands
+├── README.md                  # Project documentation
+├── screenshot2.png            # Visual proof: Event planner landing page
+├── screenshot3.png            # Visual proof: Contact Us interaction form
+└── vite.config.js             # Vite build and plugin configuration
 ```
 
-⚙️ Local Setup & Execution
+---
+
+## ⚙️ Local Setup & Execution
 To run this event planner application locally on your machine:
 
 1. Clone the Repository
@@ -131,6 +134,14 @@ npm start
 ```
 
 The application will now be accessible in your web browser at http://localhost:3000/ or http://localhost:5173/.
+
+---
+
+## 📜 License 
+
+This project is licensed under the [Apache 2.0 License](LICENSE).
+
+---
 
 ## 👤 Author
 
