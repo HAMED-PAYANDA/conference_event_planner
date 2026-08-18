@@ -78,15 +78,7 @@ graph LR
 
 ## 📸 Visual Proof
 
-The following screenshots demonstrate the frontend rendering and UI component structuring built with React.js and standard CSS.
 
-**1. Application Landing Page (`AboutUs.jsx`)**  
-*A view of the initial React component serving as the application's entry point. It demonstrates structured CSS layouts, categorized event capabilities (Social, Entertainment, Community), and static informational rendering before complex Redux state interaction begins.*
-![Event Planner Landing Page](screenshot2.png)
-
-**2. User Interaction & Form Component**  
-*The Contact Us section illustrating standard React form structuring. It features responsive text inputs and a submission handler ready to be connected to backend APIs or state dispatchers for capturing user inquiries.*
-![Contact Us Form](screenshot3.png)
 
 ---
 
