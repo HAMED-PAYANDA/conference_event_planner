@@ -108,19 +108,35 @@ Here is a look at the Conference Expense Planner in action:
 Based on the repository architecture, the application modularizes its features into specific React components and Redux slices:
 
 ```text
-conference_event_planner/
-├── public/                    # Static public assets
-├── src/                       # Application source code (React components, Redux store, slices)
-├── .eslintrc.cjs              # ESLint configuration and rules for code quality
-├── .gitignore                 # Specifies intentionally untracked files for Git
-├── index.html                 # Main HTML template and application entry point
-├── LICENSE                    # Project license file
-├── package-lock.json          # Deterministic dependency tree
-├── package.json               # Project metadata, dependencies, and script commands
-├── README.md                  # Project documentation
-├── screenshot2.png            # Visual proof: Event planner landing page
-├── screenshot3.png            # Visual proof: Contact Us interaction form
-└── vite.config.js             # Vite build and plugin configuration
+├── public/
+├── src/
+│   ├── assets/
+│   ├── AboutUs.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── ConferenceEvent.css
+│   ├── ConferenceEvent.jsx
+│   ├── TotalCost.css
+│   ├── TotalCost.jsx
+│   ├── avSlice.js
+│   ├── index.css
+│   ├── main.jsx
+│   ├── mealsSlice.js
+│   ├── store.js
+│   └── venueSlice.js
+├── .eslintrc.cjs
+├── .gitignore
+├── LICENSE
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── screenshot7.png
+├── screenshot8.png
+├── screenshot9.png
+├── screenshot10.png
+├── screenshot11.png
+└── vite.config.js
 ```
 
 ---
