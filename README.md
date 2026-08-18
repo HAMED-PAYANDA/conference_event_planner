@@ -11,6 +11,8 @@ Efficiently plan, organize, and manage conferences and events with ease. A compr
 [![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
 [![Node.js](https://img.shields.io/badge/Node.js-Environment-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](#)
 <br>
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 [![IBM Certification](https://img.shields.io/badge/IBM-Full%20Stack%20Software%20Developer%20Professional-blue?style=for-the-badge&logo=ibm)](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)
 [![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)](#)
 
