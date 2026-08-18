@@ -76,8 +76,29 @@ graph LR
 
 ---
 
-## 📸 Visual Proof
+## 📸 Visual Proof & Demos
 
+Here is a look at the Conference Expense Planner in action:
+
+### 1. Landing Page & Onboarding
+*Introduces the application and initiates the budget planning workflow with a clear call-to-action.*
+![Landing Page & Onboarding](screenshot7.png)
+
+### 2. Venue Selection Module
+*Allows users to select rooms based on capacity and dynamically calculates venue costs using interactive controls.*
+![Venue Selection Module](screenshot8.png)
+
+### 3. Add-ons Configuration
+*Provides interactive inputs to add supplementary event equipment while instantly updating the subtotal.*
+![Add-ons Configuration](screenshot9.png)
+
+### 4. Scalable Meal Planning
+*Calculates catering expenses dynamically based on total attendee count and specific daily meal selections.*
+![Scalable Meal Planning](screenshot10.png)
+
+### 5. Comprehensive Expense Summary
+*Generates an itemized expense report detailing selected items, quantities, and the finalized total cost of the event.*
+![Comprehensive Expense Summary](screenshot11.png)
 
 
 ---
